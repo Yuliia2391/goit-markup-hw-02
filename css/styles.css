@@ -25,10 +25,10 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.13;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--accent-color);
+    color: #4D5AE5;
 }
 
 .header-logo {
@@ -38,7 +38,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--headings-text-color);
+    color: #2E2F42;
 }
 
 .header-link {
@@ -51,7 +51,6 @@ body {
 
 .header-mail-link,
 .header-tel-link {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -61,7 +60,7 @@ body {
 
 .header-link:is(:hover, :focus),
 .header-mail-link:is(:hover, :focus) {
-    color: var(--accent-color);
+    color: #404bbf;
 }
 
 /* Hero */
