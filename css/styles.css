@@ -67,7 +67,7 @@ body {
 /* Hero */
 
 .hero {
-    background-color: var(--headings-text-color);
+    background-color: #2E2F42;
 }
 
 .hero-title {
@@ -96,7 +96,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--headings-text-color);
+    color: #2E2F42;
 }
 
 .about-item-text {
@@ -104,7 +104,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--body-text-color);
+    color: #2E2F42;
 }
 
 /* Section 2 description */
@@ -126,7 +126,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--headings-text-color);
+    color: #2E2F42;
 }
 
 .team-item-title {
@@ -134,7 +134,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--headings-text-color);
+    color: #2E2F42;
 }
 
 .team-item-role {
@@ -142,13 +142,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--body-text-color);
+    color: #434455;
 }
 
 /* Footer */
 
 .footer {
-    background-color: var(--headings-text-color);
+    background-color: #2E2F42;
 }
 
 .footer-logo-blue {
@@ -158,7 +158,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--accent-color);
+    color: #4D5AE5;
 }
 
 .footer-logo {
@@ -179,7 +179,7 @@ body {
     color: #E7E9FC;
 }
 
-/* Portfolio Buttons */
+/* Portfolio Buttons-Rows */
 
 .btn {
     font-family: inherit;
@@ -187,37 +187,16 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--accent-color);
+    color: #4D5AE5;
     cursor: pointer;
 }
-
-.btn-all {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-}
-
-.btn-all:is(:hover, :focus) {
-    color: #FFFFFF;
-    background-color: var(--accent-color);
-}
-
-.btn-all:active {
-    color: #FFFFFF;
-    color: var(--accent-color);
-}
-
-/* Portfolio Rows */
 
 .row-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--headings-text-color);
+    color: #2E2F42;
 }
 
 .row-item-text {
@@ -225,5 +204,5 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--body-text-color);
+    color: #434455;
 }
