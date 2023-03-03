@@ -53,8 +53,7 @@ body {
     font-style: normal;
 }
 
-.header-mail-link,
-.header-tel-link {
+.header-address-link {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -64,8 +63,7 @@ body {
 }
 
 .header-link:is(:hover, :focus),
-.header-mail-link,
-.header-tel-link:is(:hover, :focus) {
+.header-address-link:is(:hover, :focus) {
     color: #404BBF;
 }
 
