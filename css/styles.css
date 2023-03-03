@@ -64,7 +64,8 @@ body {
 }
 
 .header-link:is(:hover, :focus),
-.header-mail-link:is(:hover, :focus) {
+.header-mail-link,
+.header-tel-link:is(:hover, :focus) {
     color: #404BBF;
 }
 
