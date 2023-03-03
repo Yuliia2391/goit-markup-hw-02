@@ -110,6 +110,7 @@ body {
 /* Section 2 description */
 
 .description-title {
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -162,7 +163,7 @@ body {
     color: #4D5AE5;
 }
 
-.footer-logo-navy {
+.footer-logo-white {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -180,9 +181,9 @@ body {
     color: #E7E9FC;
 }
 
-/* Portfolio Buttons-Rows */
+/* Portfolio Gallery */
 
-.btn {
+.btn-item {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -190,6 +191,12 @@ body {
     letter-spacing: 0.04em;
     color: #4D5AE5;
     cursor: pointer;
+}
+
+.btn-item:is(:hover, :focus) {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    ;
 }
 
 .row-item-title {
