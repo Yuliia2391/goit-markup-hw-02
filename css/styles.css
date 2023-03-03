@@ -25,10 +25,10 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.13;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: #4d5ae5;
 }
 
 .header-logo {
@@ -51,6 +51,7 @@ body {
 
 .header-mail-link,
 .header-tel-link {
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
