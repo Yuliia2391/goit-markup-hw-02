@@ -1,13 +1,17 @@
 :root {
     --body-text-color: #434455;
     --headings-text-color: #2E2F42;
-    --accent-color: #4D5AE5;
+    --accent-blue-color: #4D5AE5;
+    --white-color: #FFFFFF;
+    --btn-portfolio-blue-color: #404BBF;
+    --footer-logo-bgbtn-color: #F4F4FD;
+    --footer-text-color: #E7E9FC;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
-    color: #434455;
+    background-color: var(--white-color);
+    color: var(--body-text-color);
 }
 
 .list {
@@ -20,7 +24,6 @@ body {
 
 /* Header */
 
-
 .header-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -28,7 +31,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--accent-blue-color);
 }
 
 .header-logo-navy {
@@ -38,7 +41,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--headings-text-color);
 }
 
 .header-link {
@@ -46,7 +49,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--headings-text-color);
 }
 
 .header-address {
@@ -59,18 +62,18 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--body-text-color)
 }
 
 .header-link:is(:hover, :focus),
 .header-address-link:is(:hover, :focus) {
-    color: #404BBF;
+    color: var(--btn-portfolio-blue-color);
 }
 
 /* Hero */
 
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--headings-text-color);
 }
 
 .hero-title {
@@ -79,7 +82,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .hero-btn {
@@ -88,18 +91,26 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    background-color: var(--accent-blue-color);
+    color: var(--white-color);
     cursor: pointer;
+}
+
+.hero-btn:is(:hover, :focus) {
+    background-color: var(--btn-portfolio-blue-color);
+    color: var(--white-color);
+    ;
 }
 
 /* Section 1 about */
 
 .about-item-title {
-    text-align: center font-weight: 500;
+    text-align: center;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--headings-text-color);
 }
 
 .about-item-text {
@@ -107,7 +118,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--headings-text-color);
 }
 
 /* Section 2 description */
@@ -119,7 +130,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--headings-text-color);
 }
 
 /* Section 3 team */
@@ -131,7 +142,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--headings-text-color);
 }
 
 .team-item-title {
@@ -139,7 +150,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--headings-text-color);
 }
 
 .team-item-role {
@@ -147,13 +158,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--body-text-color)
 }
 
 /* Footer */
 
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--headings-text-color)
 }
 
 .footer-logo {
@@ -163,7 +174,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--accent-blue-color);
 }
 
 .footer-logo-white {
@@ -173,7 +184,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: var(--footer-logo-bgbtn-color);
 }
 
 .footer-text {
@@ -181,7 +192,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--footer-text-color);
 }
 
 /* Portfolio Gallery */
@@ -192,13 +203,14 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    background-color: var(--footer-logo-bgbtn-color);
+    color: var(--accent-blue-color);
     cursor: pointer;
 }
 
 .btn-item:is(:hover, :focus) {
-    background-color: #404BBF;
-    color: #FFFFFF;
+    background-color: var(--btn-portfolio-blue-color);
+    color: var(--white-color);
     ;
 }
 
@@ -207,7 +219,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--headings-text-color);
 }
 
 .row-item-text {
@@ -215,5 +227,5 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--body-text-color);
 }
