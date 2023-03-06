@@ -118,7 +118,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--headings-text-color);
+    color: var(--body-text-color);
 }
 
 /* Section 2 description */
